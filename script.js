@@ -19,10 +19,10 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-  "？你认真的吗…",
-  "要不再想想？",
-  "不许选这个！ ",
-  "我会很伤心…",
+  "？真的不行吗…",
+  "算我求你了",
+  "不要给脸不要脸 ",
+  "滚吧 爱玩不玩…",
   "不行:(",
 ];
 
@@ -75,4 +75,5 @@ yesButton.addEventListener("click", function () {
 
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
+
 });
